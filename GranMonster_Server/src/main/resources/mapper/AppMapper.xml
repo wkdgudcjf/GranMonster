@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ronaldo.mapper.AppMapper">
+	<select id="getAppByID" parameterType="int" resultType="AppDTO">
+        SELECT * FROM App natural join Company WHERE appID = #{appID}
+    </select>
+    <select id="getAppByKey" parameterType="String" resultType="AppDTO">
+        SELECT * FROM App natural join Company WHERE appKey = #{appKey}
+    </select>
+    <select id="getAppList" resultType="AppDTO">
+        SELECT * FROM App natural join Company ORDER BY appEnable DESC, appName ASC 
+    </select>
+    <select id="getEnableAppList"  parameterType="boolean" resultType="AppDTO">
+        SELECT * FROM App natural join Company WHERE appEnable = #{appEnable} ORDER BY appName ASC
+    </select>
+ 	<insert id="registApp" parameterType="AppDTO" useGeneratedKeys="true" keyProperty="appID">
+       	INSERT INTO App 
+       	(appName,companyID,appAndroidURL,appImageIconPath,appImageHBannerPath1,
+       	appImageVBannerPath1,appImageHBannerPath2,appImageVBannerPath2,appImageHBannerPath3,appImageVBannerPath3,appAndroidPackage
+       	,appIOSURL,appIOSPackage) 
+       	VALUES
+       	(#{appName},#{companyID},#{appAndroidURL},#{appImageIconPath},#{appImageHBannerPath1},#{appImageVBannerPath1}
+       	,#{appImageHBannerPath2},#{appImageVBannerPath2},#{appImageHBannerPath3},#{appImageVBannerPath3},#{appAndroidPackage}
+       	,#{appIOSURL},#{appIOSPackage})
+    </insert>
+    <delete id="deleteApp" parameterType="int">
+       DELETE FROM App WHERE appID = #{appID} 
+    </delete>
+    <update id="updateApp" parameterType="AppDTO">
+		UPDATE App
+		set appName = #{appName},companyID = #{companyID},appAndroidURL = #{appAndroidURL}
+		,appImageIconPath = #{appImageIconPath},appImageHBannerPath1 = #{appImageHBannerPath1}
+		,appImageVBannerPath1 = #{appImageVBannerPath1},appImageHBannerPath2 = #{appImageHBannerPath2}
+		,appImageVBannerPath2 = #{appImageVBannerPath2},appImageHBannerPath3 = #{appImageHBannerPath3}
+		,appImageVBannerPath3 = #{appImageVBannerPath3},appAndroidPackage = #{appAndroidPackage},appEnable = #{appEnable}
+		,appBillingVisible = #{appBillingVisible},appWidgetVisible = #{appWidgetVisible},appIOSURL = #{appIOSURL},appIOSPackage = #{appIOSPackage}
+		where appID = #{appID}
+    </update> 
+     <update id="modifyAppKey" parameterType="AppDTO">
+		UPDATE App
+		set appKey = #{appKey}
+		where appID = #{appID}
+    </update> 
+</mapper>

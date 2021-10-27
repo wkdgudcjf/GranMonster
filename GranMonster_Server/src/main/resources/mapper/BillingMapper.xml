@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ronaldo.mapper.BillingMapper">
+    <select id="getBillingList"  resultType="BillingDTO">
+        SELECT * FROM Billing natural join User natural join App ORDER BY billingDateTime desc
+    </select>
+    <select id="getBillingListByAppID" parameterType="int" resultType="BillingDTO">
+        SELECT * FROM Billing WHERE appID = #{appID}
+    </select>
+	<insert id="registBilling" parameterType="BillingDTO">
+      	INSERT INTO Billing (userID,appID,billingMoney,billingCoin,billingType,appType) 
+      	VALUES (#{userID},#{appID},#{billingMoney},#{billingCoin},#{billingType},#{appType})
+    </insert>
+</mapper>

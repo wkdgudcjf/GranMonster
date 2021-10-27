@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <package name="com.ronaldo.domain"/>
+    </typeAliases>
+    <mappers>
+        <mapper resource="mapper/UserMapper.xml"/>
+        <mapper resource="mapper/AuthUserMapper.xml"/>
+        <mapper resource="mapper/CompanyMapper.xml"/>
+        <mapper resource="mapper/AppMapper.xml"/>
+        <mapper resource="mapper/ExchangeMapper.xml"/>
+        <mapper resource="mapper/BillingMapper.xml"/>
+        <mapper resource="mapper/AppEventMapper.xml"/>
+        <mapper resource="mapper/UserEventMapper.xml"/>
+        <mapper resource="mapper/UserInAppMapper.xml"/>
+        <mapper resource="mapper/AppRouteMapper.xml"/>
+    </mappers>
+    
+</configuration>

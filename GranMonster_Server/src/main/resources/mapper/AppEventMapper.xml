@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ronaldo.mapper.AppEventMapper">
+	<insert id="registAppEvent" parameterType="AppEventDTO">
+       	INSERT INTO AppEvent 
+       	(appID,appEventContent,appEventCoin,appEventStartTime,appEventEndTime, appEventKey, appEventLimit,appEventEnable,appEventOneoff)
+       	VALUES
+       	(#{appID},#{appEventContent},#{appEventCoin},#{appEventStartTime},#{appEventEndTime},#{appEventKey},#{appEventLimit},#{appEventEnable},#{appEventOneoff})
+    </insert>
+    <update id="updateAppEvent" parameterType="AppEventDTO">
+		UPDATE AppEvent
+		set appEventContent = #{appEventContent},appEventEnable = #{appEventEnable},appEventOneoff = #{appEventOneoff},appEventCoin = #{appEventCoin}
+		,appEventStartTime = #{appEventStartTime},appEventEndTime = #{appEventEndTime},appEventKey = #{appEventKey},appEventLimit = #{appEventLimit}
+		where appEventID = #{appEventID}
+    </update>
+     <update id="modifyEventCount" parameterType="AppEventDTO">
+		UPDATE AppEvent
+		set appEventCount = #{appEventCount}
+		where appEventID = #{appEventID}
+    </update>
+    <update id="disableAppEvent" parameterType="int">
+		UPDATE AppEvent
+		set appEventEnable = 0
+		where appEventID = #{appEventID}
+    </update>
+    <select id="getAppEventList" resultType="AppEventDTO">
+        SELECT * FROM AppEvent
+    </select>
+     <select id="getAppEventByAppIDByEventKey" parameterType="AppEventDTO" resultType="AppEventDTO">
+        SELECT * FROM AppEvent WHERE appID = #{appID} and appEventKey = #{appEventKey} ORDER BY appEventEnable DESC
+    </select>
+    <select id="getAppEventByAppID" parameterType="int" resultType="AppEventDTO">
+        SELECT * FROM AppEvent WHERE appID = #{appID} ORDER BY appEventEnable DESC
+    </select>
+    <select id="getAppEventByAppIDByEnable" parameterType="int" resultType="AppEventDTO">
+        SELECT * FROM AppEvent WHERE appID = #{appID} and appEventEnable = 1
+    </select>
+    <select id="getAppEventByEventID" parameterType="int" resultType="AppEventDTO">
+        SELECT * FROM AppEvent WHERE appEventID = #{appEventID}
+    </select>
+</mapper>

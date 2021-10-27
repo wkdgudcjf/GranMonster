@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ronaldo.mapper.UserInAppMapper">
+	<insert id="registUserInApp" parameterType="UserInAppDTO">
+       	INSERT INTO UserInApp 
+       	(userID,appID,appType)
+       	VALUES
+       	(#{userID},#{appID},#{appType})
+    </insert>
+    <select id="getUserInApp" parameterType="UserInAppDTO" resultType="UserInAppDTO">
+        SELECT * FROM UserInApp WHERE appID = #{appID} AND userID = #{userID}
+    </select>
+    <select id="getUserInAppByUserID" parameterType="int" resultType="UserInAppDTO">
+     	SELECT * FROM UserInApp natural join App WHERE userID = #{userID}
+    </select>
+     <select id="getUserInAppByAppID" parameterType="int" resultType="UserInAppDTO">
+     	SELECT * FROM UserInApp WHERE appID = #{appID}
+    </select>
+</mapper>

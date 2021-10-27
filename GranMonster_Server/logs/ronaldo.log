@@ -1,0 +1,198 @@
+2017-12-18 02:52:00.090  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 314148 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 02:52:00.096  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 02:52:04.626  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 4.785 seconds (JVM running for 6.056)
+2017-12-18 02:53:03.382  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 314452 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 02:53:03.388  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 02:53:08.155  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.029 seconds (JVM running for 6.347)
+2017-12-18 02:56:26.573  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 317652 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 02:56:26.577  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 02:56:30.238  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 3.897 seconds (JVM running for 5.208)
+2017-12-18 02:57:31.679  INFO DESKTOP-B9OFJUT --- [nio-8080-exec-7] c.r.C.AdminController                    : E:\ws\Ronaldo\src\main\webapp\image\appIcon\ds_v1_icon.png
+2017-12-18 02:57:37.262  INFO DESKTOP-B9OFJUT --- [nio-8080-exec-3] c.r.s.ApiServiceImpl                     : 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'ds' for key 'appName_UNIQUE'
+### The error may involve com.ronaldo.mapper.AppMapper.registApp-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO App          (appName,companyID,appURL,appImageIconPath,appImageHBannerPath,appImageVBannerPath,appPackage)          VALUES         (?,?,?,?,?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'ds' for key 'appName_UNIQUE'
+; SQL []; Duplicate entry 'ds' for key 'appName_UNIQUE'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'ds' for key 'appName_UNIQUE'
+2017-12-18 02:58:30.811  INFO DESKTOP-B9OFJUT --- [nio-8080-exec-2] c.r.s.ApiServiceImpl                     : 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'ds' for key 'appName_UNIQUE'
+### The error may involve com.ronaldo.mapper.AppMapper.registApp-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO App          (appName,companyID,appURL,appImageIconPath,appImageHBannerPath,appImageVBannerPath,appPackage)          VALUES         (?,?,?,?,?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'ds' for key 'appName_UNIQUE'
+; SQL []; Duplicate entry 'ds' for key 'appName_UNIQUE'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'ds' for key 'appName_UNIQUE'
+2017-12-18 03:01:41.793  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 318672 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 03:01:41.798  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 03:01:45.384  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 3.838 seconds (JVM running for 5.195)
+2017-12-18 03:28:21.812  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 319340 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 03:28:21.817  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 03:28:26.635  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.059 seconds (JVM running for 6.414)
+2017-12-18 03:45:39.965  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 329268 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 03:45:39.970  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 03:45:44.492  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 4.81 seconds (JVM running for 6.099)
+2017-12-18 03:47:28.205  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 339676 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 03:47:28.208  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 03:47:31.930  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 3.968 seconds (JVM running for 6.113)
+2017-12-18 03:49:33.818  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 341584 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 03:49:33.823  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 03:49:48.952  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 342668 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 03:49:48.957  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 03:49:53.090  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 4.462 seconds (JVM running for 5.925)
+2017-12-18 03:50:50.478  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 343816 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 03:50:50.482  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 03:50:55.731  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.493 seconds (JVM running for 6.816)
+2017-12-18 03:55:33.370  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 343768 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 03:55:33.376  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 03:55:38.723  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.744 seconds (JVM running for 7.643)
+2017-12-18 03:56:37.223  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 347748 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 03:56:37.227  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 03:56:40.689  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 3.691 seconds (JVM running for 4.919)
+2017-12-18 03:59:45.748  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 347860 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 03:59:45.753  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 03:59:50.711  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.187 seconds (JVM running for 6.486)
+2017-12-18 04:00:02.833  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 348636 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 04:00:02.840  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 04:00:06.923  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 4.471 seconds (JVM running for 6.345)
+2017-12-18 21:21:06.155  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 350320 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 21:21:06.162  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 21:21:11.337  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.519 seconds (JVM running for 9.929)
+2017-12-18 21:24:14.175  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 351648 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 21:24:14.180  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 21:24:18.366  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 4.436 seconds (JVM running for 6.009)
+2017-12-18 21:25:58.945  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 359364 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 21:25:58.950  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 21:26:03.354  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 4.675 seconds (JVM running for 6.385)
+2017-12-18 21:27:29.863  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 359360 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 21:27:29.869  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 21:27:35.670  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 6.264 seconds (JVM running for 7.928)
+2017-12-18 22:16:49.125  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 377924 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 22:16:49.130  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 22:16:53.119  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 4.228 seconds (JVM running for 5.8)
+2017-12-18 23:07:13.121  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 391164 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 23:07:13.130  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 23:07:19.152  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 6.308 seconds (JVM running for 7.719)
+2017-12-18 23:14:27.831  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 395168 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 23:14:27.837  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 23:14:32.701  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.137 seconds (JVM running for 6.666)
+2017-12-18 23:23:32.381  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 398984 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 23:23:32.385  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 23:23:36.433  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 4.275 seconds (JVM running for 5.484)
+2017-12-18 23:26:28.652  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 399412 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 23:26:28.668  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 23:26:33.538  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.218 seconds (JVM running for 7.178)
+2017-12-18 23:27:13.345  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 400768 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 23:27:13.352  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 23:27:18.343  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.374 seconds (JVM running for 6.725)
+2017-12-18 23:29:46.598  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 401344 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 23:29:46.603  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 23:29:51.889  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.527 seconds (JVM running for 7.284)
+2017-12-18 23:50:36.900  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 412976 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 23:50:36.907  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 23:50:43.893  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 7.399 seconds (JVM running for 8.729)
+2017-12-18 23:58:08.095  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 416412 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-18 23:58:08.102  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-18 23:58:12.723  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 4.936 seconds (JVM running for 6.365)
+2017-12-19 00:01:46.144  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 417824 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 00:01:46.148  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 00:01:51.311  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.457 seconds (JVM running for 8.27)
+2017-12-19 00:07:05.500  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 420564 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 00:07:05.505  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 00:07:11.306  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 6.084 seconds (JVM running for 7.544)
+2017-12-19 00:08:29.195  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 423396 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 00:08:29.200  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 00:08:34.382  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.469 seconds (JVM running for 7.094)
+2017-12-19 00:09:59.878  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 423836 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 00:09:59.885  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 00:10:05.094  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.508 seconds (JVM running for 7.028)
+2017-12-19 00:23:13.360  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 425768 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 00:23:13.366  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 00:23:18.296  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.238 seconds (JVM running for 6.791)
+2017-12-19 00:31:01.689  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 432936 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 00:31:01.695  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 00:31:06.576  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.16 seconds (JVM running for 7.734)
+2017-12-19 00:35:44.091  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 435460 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 00:35:44.097  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 00:35:49.354  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.916 seconds (JVM running for 7.377)
+2017-12-19 00:37:05.473  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 435436 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 00:37:05.477  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 00:37:10.858  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.627 seconds (JVM running for 7.244)
+2017-12-19 00:39:38.583  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 438996 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 00:39:38.590  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 00:39:45.920  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 7.867 seconds (JVM running for 10.04)
+2017-12-19 00:44:10.251  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 441668 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 00:44:10.258  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 00:44:15.015  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.038 seconds (JVM running for 8.094)
+2017-12-19 00:49:17.774  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 445656 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 00:49:17.780  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 00:49:23.610  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 6.106 seconds (JVM running for 7.633)
+2017-12-19 00:51:14.540  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 447336 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 00:51:14.548  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 00:51:19.220  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 4.938 seconds (JVM running for 6.784)
+2017-12-19 00:53:22.301  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 447704 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 00:53:22.308  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 00:53:28.308  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 6.284 seconds (JVM running for 7.769)
+2017-12-19 00:56:25.608  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 449392 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 00:56:25.615  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 00:56:31.328  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.977 seconds (JVM running for 7.514)
+2017-12-19 00:59:18.496  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 452088 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 00:59:18.596  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 00:59:25.587  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 7.604 seconds (JVM running for 11.615)
+2017-12-19 01:12:12.434  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 457644 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 01:12:12.441  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 01:12:17.153  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.018 seconds (JVM running for 6.558)
+2017-12-19 01:17:07.341  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 459212 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 01:17:07.348  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 01:17:12.476  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.439 seconds (JVM running for 7.612)
+2017-12-19 01:21:08.626  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 458792 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 01:21:08.633  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 01:21:13.242  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 4.896 seconds (JVM running for 7.967)
+2017-12-19 01:23:43.968  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 109580 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 01:23:43.977  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 01:23:48.966  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.37 seconds (JVM running for 9.976)
+2017-12-19 01:27:43.366  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 465820 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 01:27:43.373  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 01:27:48.285  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.252 seconds (JVM running for 7.786)
+2017-12-19 01:37:20.401  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 468380 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 01:37:20.407  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 01:37:27.857  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 7.778 seconds (JVM running for 10.484)
+2017-12-19 01:43:17.897  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 470556 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 01:43:17.903  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 01:45:55.096  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 471828 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 01:45:55.101  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 01:45:59.821  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 4.994 seconds (JVM running for 7.451)
+2017-12-19 01:49:19.053  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 471152 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-19 01:49:19.060  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-19 01:49:26.929  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 8.268 seconds (JVM running for 11.389)
+2017-12-20 22:33:27.128  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 5992 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-20 22:33:27.131  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-20 22:33:30.889  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 3.959 seconds (JVM running for 5.098)
+2017-12-20 22:36:31.763  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 14052 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-20 22:36:31.766  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-20 22:36:34.952  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 3.374 seconds (JVM running for 4.419)
+2017-12-20 22:41:33.891  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 16612 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-20 22:41:33.895  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-20 22:41:37.195  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 3.487 seconds (JVM running for 4.56)
+2017-12-20 22:46:46.071  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 9896 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-20 22:46:46.075  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-20 22:46:50.864  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 5.045 seconds (JVM running for 7.467)
+2017-12-20 22:57:45.617  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 20976 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-20 22:57:45.621  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-20 22:57:49.000  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 3.611 seconds (JVM running for 4.695)
+2017-12-20 23:18:05.463  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 24520 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-20 23:18:05.468  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-20 23:18:09.363  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 4.14 seconds (JVM running for 5.321)
+2017-12-20 23:25:00.097  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 26504 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-20 23:25:00.101  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-20 23:25:15.886  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 26312 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-20 23:25:15.890  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-20 23:25:19.246  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 3.547 seconds (JVM running for 4.603)
+2017-12-20 23:35:35.259  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 28592 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-20 23:35:35.264  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-20 23:35:38.476  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 3.63 seconds (JVM running for 4.899)
+2017-12-20 23:49:51.966  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 32676 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-20 23:49:51.969  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-20 23:49:55.212  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 3.43 seconds (JVM running for 4.477)
+2017-12-21 00:16:32.908  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Starting ServletInitializer on DESKTOP-B9OFJUT with PID 51332 (E:\ws\Ronaldo\target\classes started by jhc in E:\ws\Ronaldo)
+2017-12-21 00:16:32.911  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : No active profile set, falling back to default profiles: default
+2017-12-21 00:16:36.272  INFO DESKTOP-B9OFJUT --- [           main] c.r.ServletInitializer                   : Started ServletInitializer in 3.574 seconds (JVM running for 4.728)

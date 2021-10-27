@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ronaldo.mapper.UserMapper">
+
+ 	<insert id="registUser" parameterType="UserDTO" useGeneratedKeys="true" keyProperty="userID">
+      	INSERT INTO User (userEmail,userKey,userPassword,userCoin,userMoney,userType)
+      	VALUES (#{userEmail},#{userKey},#{userPassword},#{userCoin},#{userMoney},#{userType})
+     </insert>
+     
+    <select id="getUserList" resultType="UserDTO">
+        SELECT * FROM User ORDER BY userEnable DESC
+    </select>
+    
+    <update id="updateUser" parameterType="UserDTO">
+		UPDATE User
+		set userCoin = #{userCoin},userMoney =#{userMoney}
+		where userID = #{userID}
+    </update>
+    
+     <update id="updateUserPayload" parameterType="UserDTO">
+		UPDATE User
+		set userPayload = #{userPayload}
+		where userKey = #{userKey}
+    </update>
+    
+    <select id="getUser" parameterType="String" resultType="UserDTO">
+        SELECT * FROM User WHERE userKey = #{userKey} 
+    </select>
+    <select id="getUserByUserID" parameterType="int" resultType="UserDTO">
+        SELECT * FROM User WHERE userID = #{userID} 
+    </select>
+</mapper>

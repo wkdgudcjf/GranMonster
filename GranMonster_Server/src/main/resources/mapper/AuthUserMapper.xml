@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ronaldo.mapper.AuthUserMapper">
+    <select id="searchAuthUser" parameterType="String" resultType="AuthUserDTO">
+       SELECT * FROM AuthUser WHERE authUserID = #{authUserID}
+     </select>
+      <delete id="deleteAuthUser" parameterType="String">
+       DELETE FROM AuthUser WHERE authUserID = #{authUserID} 
+      </delete> 
+      <insert id="createAuthUser" parameterType="AuthUserDTO">
+      INSERT INTO AuthUser (authUserID,authUserEmail,authUserPassword,authUserAuth) VALUES (#{authUserID},#{authUserEmail},#{authUserPassword},#{authUserAuth})
+     </insert>
+    <!-- 
+     <select id="readAuthority" parameterType="String" resultType="org.springframework.security.core.authority.SimpleGrantedAuthority">
+     	SELECT authority_name FROM authority WHERE username = #{username}
+     </select>
+      <insert id="createAuthority" parameterType="org.springframework.security.core.GrantedAuthority">
+       INSERT INTO authority (username, authority_name) VALUES <foreach item="authority" index="index" collection="authorities" separator=","> (#{username}, #{authority}) </foreach> 
+      </insert>
+      <delete id="deleteAuthority" parameterType="String">
+       DELETE FROM authority WHERE username = #{username}
+      </delete>
+       -->
+</mapper>

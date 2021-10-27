@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2703718975
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: shopwindow(vertical)
+      Dependencies: {}
+    Info_1:
+      Name: shopwindow(horizontal)
+      Dependencies: {}
+    Info_2:
+      Name: adwindow(vertical)
+      Dependencies: {}
+    Info_3:
+      Name: adwindow(horizontal)
+      Dependencies: {}
+    Info_4:
+      Name: granmonsterwidgetbutton
+      Dependencies: {}
+    Info_5:
+      Name: granmonstershopbutton
+      Dependencies: {}

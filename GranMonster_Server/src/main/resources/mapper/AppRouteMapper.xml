@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ronaldo.mapper.AppRouteMapper">
+	<insert id="registAppRoute" parameterType="AppRouteDTO">
+       	INSERT INTO AppRoute 
+       	(srcAppID,desAppID,appRouteType)
+       	VALUES
+       	(#{srcAppID},#{desAppID},#{appRouteType})
+    </insert>
+     <select id="getAppRouteDTO" parameterType="int" resultType="AppRouteDTO">
+     	SELECT * FROM AppRoute WHERE srcAppID = #{srcAppID}
+    </select>
+</mapper>
